@@ -42,8 +42,6 @@ Superpixel stuff segmentation,
 
 The goal of LabelMe is to provide an online annotation tool to build image databases for computer vision research. You can contribute to the database by visiting the annotation tool.
 
-
-
 * [Columbia University Image Library](https://www.cs.columbia.edu/CAVE/software/softlib/coil-100.php)
 
 The Columbia University Image Library dataset features 100 different objects ranging from toys, personal care items, tablets and so on, imaged at every angle in a 360° rotation.
@@ -67,3 +65,31 @@ Indoor scene recognition is a challenging open problem in high level vision. Mos
 The database contains 67 Indoor categories, and a total of 15620 images. The number of images varies across categories, but there are at least 100 images per category. All images are in jpg format. The images provided here are for research purposes only.
 
 
+* [xView](http://xviewdataset.org/#dataset)
+
+xView is one of the largest publicly available datasets of overhead imagery. It contains images from complex scenes around the world, annotated using bounding boxes.
+
+* [VisualData](https://www.visualdata.io/discovery)
+
+Best place to find and share computer vision datasets.
+
+* [Google’s Open Images](https://ai.googleblog.com/2016/09/introducing-open-images-dataset.html)
+
+A collection of 9 million URLs to images “that have been annotated with labels spanning over 6,000 categories” under Creative Commons.
+
+* [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
+
+ A database of face photographs designed for studying the problem of unconstrained face recognition. The data set contains more than 13,000 images of faces collected from the web. Each face has been labeled with the name of the person pictured. 1680 of the people pictured have two or more distinct photos in the data set.
+ 
+ 
+ # Some of the common datasets finder:
+ 
+ * [Google Dataset Search](https://datasetsearch.research.google.com/)
+
+Google Dataset Search lets you find datasets wherever they’re hosted, whether it’s a publisher’s site, a digital library, or an author’s web page. It’s a phenomenal dataset finder, and it contains over 25 million datasets.
+ 
+ * [Kaggle](https://www.kaggle.com/)
+ 
+Inside Kaggle you’ll find all the code & data you need to do your data science work. Use over 19,000 public datasets and 200,000 public notebooks to conquer any analysis in no time.
+
+ 
