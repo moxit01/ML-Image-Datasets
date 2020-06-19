@@ -81,7 +81,40 @@ A collection of 9 million URLs to images “that have been annotated with labels
 
  A database of face photographs designed for studying the problem of unconstrained face recognition. The data set contains more than 13,000 images of faces collected from the web. Each face has been labeled with the name of the person pictured. 1680 of the people pictured have two or more distinct photos in the data set.
  
- 
+* [CIFAR-10 dataset ](http://www.cs.toronto.edu/~kriz/cifar.html)
+The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
+
+* [THE MNIST DATABASE](http://yann.lecun.com/exdb/mnist/)
+The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.
+
+* [Olivetti](https://cs.nyu.edu/~roweis/data.html)
+Here are some datasets in MATLAB format.
+
+* [The Yale Face Database](http://vision.ucsd.edu/content/yale-face-database)
+The Yale Face Database (size 6.4MB) contains 165 grayscale images in GIF format of 15 individuals. There are 11 images per subject, one per different facial expression or configuration: center-light, w/glasses, happy, left-light, w/no glasses, normal, right-light, sad, sleepy, surprised, and wink.
+
+* [Places](http://places.csail.mit.edu/index.html)
+Scene-centric database with 205 scene categories and 2.5 million images with a category label.
+
+* [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations. The images in this dataset cover large pose variations and background clutter. CelebA has large diversities, large quantities, and rich annotations, including  10,177 number of identities, 202,599 number of face images, and 5 landmark locations, 40 binary attributes annotations per image.
+
+* [102 Category Flower Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html)
+The flowers chosen to be flower commonly occuring in the United Kingdom. Each class consists of between 40 and 258 images. The details of the categories and the number of images for each class can be found on this category statistics page.
+The images have large scale, pose and light variations. In addition, there are categories that have large variations within the category and several very similar categories. The dataset is visualized using isomap with shape and colour features.
+
+* [Home Objects dataset](http://www.vision.caltech.edu/pmoreels/Datasets/Home_Objects_06/l)
+This dataset contains random objects from home. The objects are taken mostly from kitchen, bathroom and living-room environments.
+The directories containing the dataset are:
+Training images and Test images.
+Each directory contains a subdirectory named 'Gtruth/', containing ground truth .mat files. The .mat files contain a variable 'outline'. For training images, 'outline' contains the corners of a bounding box defining the model in the training image. For test images, 'outline' contains the names of the models present in the image along with a bounding box for each of them. If a same training object is defined by several training images, 'outline' references all these training images, with the same bounding box.
+
+
+* [The Comprehensive Cars (CompCars) dataset](http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
+The Comprehensive Cars (CompCars) dataset contains data from two scenarios, including images from web-nature and surveillance-nature. The web-nature data contains 163 car makes with 1,716 car models. There are a total of 136,726 images capturing the entire cars and 27,618 images capturing the car parts. The full car images are labeled with bounding boxes and viewpoints. Each car model is labeled with five attributes, including maximum speed, displacement, number of doors, number of seats, and type of car. The surveillance-nature data contains 50,000 car images captured in the front view.
+
+
  # Some of the common datasets finder:
  
  * [Google Dataset Search](https://datasetsearch.research.google.com/)
